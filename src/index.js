@@ -1,3 +1,3 @@
 
 
-import './js/search-images/index';
+import './js/search-images';
