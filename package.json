@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https//oxy12.github.io/goit-js-hw-11"
+    "url": "https://github.com/oxy12/goit-js-hw-11.git "
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https//oxy12.github.io/goit-js-hw-11/issues"
+    "url": "https://github.com/oxy12/goit-js-hw-11.git "
   },
   "dependencies": {
     "axios": "^1.4.0",
