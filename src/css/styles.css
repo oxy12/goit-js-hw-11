@@ -31,23 +31,18 @@ body {
     padding: 0;
   }
   
-  // Utilities
+ 
   
   .container {
     width: 0 auto;
     margin: 0 auto;
     margin-top: 110px;
     padding: 0 10px 0 10px;
-    @media screen and (min-width: $tablet) {
-      width: $tablet;
-    }
   
-    @media screen and (min-width: $desktop) {
-      width: $desktop;
     }
-  }
+
   
-  // Search form
+
   
   .search-form {
     position: fixed;
@@ -78,13 +73,11 @@ body {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   
-    &::placeholder {
-      font-size: 16px;
-      color: #cccccc;
+  
     }
   
 
-    }
+    
   
   
   .search-form__button {
@@ -100,18 +93,8 @@ body {
     cursor: pointer;
     transition: background-color 300ms linear, color 300ms linear;
   
-    &:hover,
-    &:focus {
-      background-color: #0f3443;
-      color: #ffffff;
     }
-  
-    @media screen and (min-width: $mobile) {
-      width: 70px;
-    }
-  }
-  
-  // Gallery
+
   
   .gallery {
     @media screen and (min-width: $tablet) {
