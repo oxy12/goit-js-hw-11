@@ -2,7 +2,6 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "https://oxy12.github.io/goit-js-hw-11",
   "scripts": {
     "start": "parcel src/*.html",
@@ -10,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git + https://github.com/oxy12/goit-js-hw-11.git "
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git "
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oxy12/goit-js-hw-11.git "
+    "url": "https://github.com/goitacademy/parcel-project-template/issues "
   },
   "dependencies": {
     "@babel/compat-data": "^7.22.3",
