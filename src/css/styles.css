@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -41,6 +42,9 @@ body {
   
     }
 
+  
+
+  
   .search-form {
     position: fixed;
     top: 0;
@@ -73,6 +77,9 @@ body {
   
     }
   
+
+    
+  
   
   .search-form__button {
     width: 100px;
@@ -91,12 +98,12 @@ body {
 
   
   .gallery {
-   
+    @media screen and (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
       margin: -10px;
     }
-  
+  }
   
   .photo-card {
     margin-bottom: 10px;
@@ -149,8 +156,9 @@ body {
       background-color: #0f3443;
       color: #ffffff;
     }
-  .is-hidden {
-     display: none;
+  
+    &.is-hidden {
+      display: none;
     }
   }
   
@@ -163,8 +171,3 @@ body {
       display: none;
     }
   }
-
-
-
-
-  
