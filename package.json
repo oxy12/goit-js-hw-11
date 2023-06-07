@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@babel/compat-data": "^7.22.3",
+    "@parcel/core": "^2.9.1",
+    "@parcel/resolver-default": "^2.9.1",
     "@parcel/transformer-babel": "^2.9.1",
     "@parcel/transformer-css": "^2.9.1",
     "@parcel/transformer-worklet": "^2.9.1",
