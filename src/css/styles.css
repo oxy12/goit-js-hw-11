@@ -41,9 +41,6 @@ body {
   
     }
 
-  
-
-  
   .search-form {
     position: fixed;
     top: 0;
@@ -76,9 +73,6 @@ body {
   
     }
   
-
-    
-  
   
   .search-form__button {
     width: 100px;
@@ -97,12 +91,12 @@ body {
 
   
   .gallery {
-    @media screen and (min-width: $tablet) {
+   
       display: flex;
       flex-wrap: wrap;
       margin: -10px;
     }
-  }
+  
   
   .photo-card {
     margin-bottom: 10px;
