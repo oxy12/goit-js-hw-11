@@ -155,9 +155,8 @@ body {
       background-color: #0f3443;
       color: #ffffff;
     }
-  
-    &.is-hidden {
-      display: none;
+  .is-hidden {
+     display: none;
     }
   }
   
