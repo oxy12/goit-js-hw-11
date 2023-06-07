@@ -71,6 +71,9 @@ async function onSubmitSearchForm(e) {
       endCollectionText.classList.add('is-hidden');
     }
   } catch (error) {
+    Notify.info(
+      "We're sorry, but you've reached the end of search results."
+    );
     console.log(error);
   }
 }
